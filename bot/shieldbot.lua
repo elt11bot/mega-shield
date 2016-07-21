@@ -245,6 +245,7 @@ function create_config( )
     "lock_media",
     "lock_operator",
     "lock_username",
+    "info-setrank",
     "lock_tag",
     "clean",
     "lock_reply",
@@ -352,6 +353,7 @@ Only sudo users can run this command
 This command will send text to [group_id]
 
 
+.
 **You can use "#", "!", or "/" to begin all commands
 
 
@@ -735,3 +737,5 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
+,
+    
