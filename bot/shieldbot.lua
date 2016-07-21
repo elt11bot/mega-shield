@@ -240,11 +240,13 @@ function create_config( )
     "lock_fosh",
     "lock_fwd",
     "lock_join",
+    "share",
     "saveplug",
     "lock_media",
     "lock_operator",
     "lock_username",
     "lock_tag",
+    "clean",
     "lock_reply",
     "rmsg",
     "send",
@@ -704,7 +706,7 @@ function load_data(filename)
 
 end
 
-function save_data(filename, data)
+function save_data(filename,d data)
 
 	local s = JSON.encode(data)
 	local f = io.open(filename, 'w')
