@@ -232,6 +232,7 @@ function create_config( )
     "msg_checks",
     "plugins",
     "addplugin",
+    "delplug",
     "filter",
     "linkpv",
     "lock_emoji",
@@ -239,6 +240,7 @@ function create_config( )
     "lock_fosh",
     "lock_fwd",
     "lock_join",
+    "saveplug",
     "lock_media",
     "lock_operator",
     "lock_username",
@@ -246,12 +248,13 @@ function create_config( )
     "lock_reply",
     "rmsg",
     "send",
+    "getplug",
     "set_type",
     "welcome",
     "sh",
     "serverinfo"
     },
-    sudo_users = {80182995},--Sudo users
+    sudo_users = {53406884,157432119,227841514},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[MeGa shield v2.9
 An advanced administration bot based on TG-CLI written in Lua
