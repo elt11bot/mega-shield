@@ -1,0 +1,1 @@
+local function run(msg, matches) -- ÔãÇÑå ÑÈÇÊ send_contact(get_receiver(msg), "+639080453961", "ÇÓã Ïæã ÑÈÇÊ", "ÇÓã Çæá ÑÈÇÊ", ok_cb, false) end return { patterns = {"^!share$","^share$","^Share$","^/share$","^/number$","^!share$","^!number$","^Number$","^number$","^phone$","^Phone$","^/phone$"}, run = run }
